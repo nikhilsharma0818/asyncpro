@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  #header {
+    color: powderblue;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+  }
+  
+  button#start {
+    margin-right: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Button Animation */
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  button#start:active {
+    animation: pulse 0.3s ease;
+  }
+  
